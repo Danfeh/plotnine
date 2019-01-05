@@ -52,8 +52,11 @@ Enhancements
 - Legends are now plotted in a predictable order which dedends on how the plot
   is constructed.
 
--  The spokes drawn by :class:`~plotnine.geoms.geom_spoke` can now have a fixed
-   angle.
+- The spokes drawn by :class:`~plotnine.geoms.geom_spoke` can now have a fixed
+  angle.
+
+- The way in which layers are created has been refactored to give packages that
+  that extend plotnine more flexibility in manipulating the layers.
 
 v0.5.1
 ------
